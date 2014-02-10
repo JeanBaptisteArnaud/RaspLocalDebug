@@ -1,0 +1,793 @@
+THERE_BE_DRAGONS_HERE
+==== Startup Error: MessageNotUnderstood: receiver of "new" is nil
+7 February 2014 1:58:48.33 pm
+
+VM: Mac OS - intel - 1091 - NBCoInterpreter NativeBoost-CogPlugin-GuillermoPolito.19 uuid: acc98e51-2fba-4841-a965-2975997bba66 Dec 26 2013
+NBCogit NativeBoost-CogPlugin-GuillermoPolito.19 uuid: acc98e51-2fba-4841-a965-2975997bba66 Dec 26 2013
+https://github.com/pharo-project/pharo-vm.git Commit: e698e14f38003258fa49506b14307d83863a5ac1 Date: 2013-12-16 06:32:59 -0800 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #14780
+
+Image: Pharo2.0 [Latest update: #20628]
+
+UndefinedObject(Object)>>doesNotUnderstand: #new
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	new
+		exception: 	MessageNotUnderstood: receiver of "new" is nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+Compiler>>evaluate:in:to:notifying:ifFail:logged:
+	Receiver: a Compiler
+	Arguments and temporary variables: 
+		textOrStream: 	'StackCrossRaspbianFastBltConfig new generateSources; generate.'
+		aContext: 	nil
+		receiver: 	nil
+		aRequestor: 	nil
+		failBlock: 	[^ nil]
+		logFlag: 	false
+		methodNode: 	DoIt
+	^ StackCrossRaspbianFastBltConfig new generateSources; genera...etc...
+		method: 	UndefinedObject>>#DoIt
+		value: 	nil
+		toLog: 	nil
+		itsSelection: 	nil
+		itsSelectionString: 	nil
+	Receiver's instance variables: 
+		sourceStream: 	a ReadStream
+		requestor: 	nil
+		class: 	UndefinedObject
+		category: 	nil
+		context: 	nil
+		parser: 	a Parser
+
+
+Compiler class>>evaluate:for:notifying:logged:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'StackCrossRaspbianFastBltConfig new generateSources; generate.'
+		anObject: 	nil
+		aController: 	nil
+		logFlag: 	false
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->Compil...etc...
+		format: 	142
+		layout: 	nil
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p...etc...
+		organization: 	a ClassOrganizer
+		subclasses: 	nil
+		name: 	#Compiler
+		classPool: 	a Dictionary()
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Compiler-Kernel'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+Compiler class>>evaluate:for:logged:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'StackCrossRaspbianFastBltConfig new generateSources; generate.'
+		anObject: 	nil
+		logFlag: 	false
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->Compil...etc...
+		format: 	142
+		layout: 	nil
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p...etc...
+		organization: 	a ClassOrganizer
+		subclasses: 	nil
+		name: 	#Compiler
+		classPool: 	a Dictionary()
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Compiler-Kernel'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+Compiler class>>evaluate:
+	Receiver: Compiler
+	Arguments and temporary variables: 
+		textOrString: 	'StackCrossRaspbianFastBltConfig new generateSources; generate.'
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#compile:in:classified:notifying:ifFail:->Compil...etc...
+		format: 	142
+		layout: 	nil
+		instanceVariables: 	#('sourceStream' 'requestor' 'class' 'category' 'context' 'p...etc...
+		organization: 	a ClassOrganizer
+		subclasses: 	nil
+		name: 	#Compiler
+		classPool: 	a Dictionary()
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Compiler-Kernel'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+[self stdout
+		print: (Compiler evaluate: aStream);
+		 lf] in EvaluateCommandLineHandler>>evaluate:
+	Receiver: an EvaluateCommandLineHandler
+	Arguments and temporary variables: 
+		aStream: 	'StackCrossRaspbianFastBltConfig new generateSources; generate.'
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+		sourceFiles: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [self stdout
+		print: (Compiler evaluate: aStream);
+		 lf]
+	Arguments and temporary variables: 
+		exception: 	an ExceptionSet
+		handlerAction: 	[:e | self handleError: e]
+		handlerActive: 	false
+	Receiver's instance variables: 
+		outerContext: 	EvaluateCommandLineHandler>>evaluate:
+		startpc: 	58
+		numArgs: 	0
+
+
+EvaluateCommandLineHandler>>evaluate:
+	Receiver: an EvaluateCommandLineHandler
+	Arguments and temporary variables: 
+		aStream: 	'StackCrossRaspbianFastBltConfig new generateSources; generate.'
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+		sourceFiles: 	nil
+
+
+EvaluateCommandLineHandler>>evaluateArguments
+	Receiver: an EvaluateCommandLineHandler
+	Arguments and temporary variables: 
+		args: 	'StackCrossRaspbianFastBltConfig new generateSources; generate.'
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+		sourceFiles: 	nil
+
+
+EvaluateCommandLineHandler>>activate
+	Receiver: an EvaluateCommandLineHandler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+		sourceFiles: 	nil
+
+
+EvaluateCommandLineHandler class(CommandLineHandler class)>>activateWith:
+	Receiver: EvaluateCommandLineHandler
+	Arguments and temporary variables: 
+		aCommandLine: 	a CommandLineArguments
+	Receiver's instance variables: 
+		superclass: 	BasicCodeLoader
+		methodDict: 	a MethodDictionary(#activate->EvaluateCommandLineHandler>>#activate...etc...
+		format: 	138
+		layout: 	nil
+		instanceVariables: 	nil
+		organization: 	a ClassOrganizer
+		subclasses: 	nil
+		name: 	#EvaluateCommandLineHandler
+		classPool: 	nil
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'System-CommandLine'
+		traitComposition: 	nil
+		localSelectors: 	nil
+
+
+DefaultCommandLineHandler>>handleSubcommand
+	Receiver: a DefaultCommandLineHandler
+	Arguments and temporary variables: 
+		handlers: 	an OrderedCollection(EvaluateCommandLineHandler DefaultCommandLineHan...etc...
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+DefaultCommandLineHandler>>handleArgument:
+	Receiver: a DefaultCommandLineHandler
+	Arguments and temporary variables: 
+		aString: 	'eval'
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+DefaultCommandLineHandler>>activate
+	Receiver: a DefaultCommandLineHandler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self new activate] in DefaultCommandLineHandler class>>startUp:
+	Receiver: DefaultCommandLineHandler
+	Arguments and temporary variables: 
+		resuming: 	true
+	Receiver's instance variables: 
+		superclass: 	CommandLineHandler
+		methodDict: 	a MethodDictionary(#activate->DefaultCommandLineHandler>>#activate ...etc...
+		format: 	136
+		layout: 	nil
+		instanceVariables: 	nil
+		organization: 	a ClassOrganizer
+		subclasses: 	nil
+		name: 	#DefaultCommandLineHandler
+		classPool: 	nil
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'System-CommandLine'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+BlockClosure>>cull:
+	Receiver: [self new activate]
+	Arguments and temporary variables: 
+		anArg: 	true
+	Receiver's instance variables: 
+		outerContext: 	DefaultCommandLineHandler class>>startUp:
+		startpc: 	38
+		numArgs: 	0
+
+
+[each cull: resuming] in [:each | self
+		logStartUpErrorDuring: [each cull: resuming]
+		into: errors
+		tryDebugger: self isInteractive] in SmalltalkImage>>executeDeferredStartupActions:
+	Receiver: Smalltalk
+	Arguments and temporary variables: 
+		resuming: 	true
+		errors: 	an OrderedCollection()
+		each: 	[self new activate]
+	Receiver's instance variables: 
+		globals: 	a SystemDictionary(lots of globals)
+		deferredStartupActions: 	an OrderedCollection([self managedServers
+		do: [:each ...etc...
+		specialObjectsArray: 	an Array(nil false true #Processor->Processor Bitmap Small...etc...
+		session: 	an Object
+
+
+BlockClosure>>on:do:
+	Receiver: [each cull: resuming]
+	Arguments and temporary variables: 
+		exception: 	an ExceptionSet
+		handlerAction: 	[:err | self
+		logStartupError: err
+		into: aCollection
+		tryDeb...etc...
+		handlerActive: 	false
+	Receiver's instance variables: 
+		outerContext: 	[:each | self
+		logStartUpErrorDuring: [each cull: resuming]
+		in...etc...
+		startpc: 	60
+		numArgs: 	0
+
+
+SmalltalkImage>>logStartUpErrorDuring:into:tryDebugger:
+	Receiver: Smalltalk
+	Arguments and temporary variables: 
+		aBlock: 	[each cull: resuming]
+		aCollection: 	an OrderedCollection()
+		tryDebugger: 	false
+	Receiver's instance variables: 
+		globals: 	a SystemDictionary(lots of globals)
+		deferredStartupActions: 	an OrderedCollection([self managedServers
+		do: [:each ...etc...
+		specialObjectsArray: 	an Array(nil false true #Processor->Processor Bitmap Small...etc...
+		session: 	an Object
+
+
+[:each | self
+		logStartUpErrorDuring: [each cull: resuming]
+		into: errors
+		tryDebugger: self isInteractive] in SmalltalkImage>>executeDeferredStartupActions:
+	Receiver: Smalltalk
+	Arguments and temporary variables: 
+		resuming: 	true
+		errors: 	an OrderedCollection()
+		each: 	[self new activate]
+	Receiver's instance variables: 
+		globals: 	a SystemDictionary(lots of globals)
+		deferredStartupActions: 	an OrderedCollection([self managedServers
+		do: [:each ...etc...
+		specialObjectsArray: 	an Array(nil false true #Processor->Processor Bitmap Small...etc...
+		session: 	an Object
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection([self managedServers
+		do: [:each | each start]] [self default loadSt...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[:each | self
+		logStartUpErrorDuring: [each cull: resuming]
+		into: er...etc...
+		index: 	3
+	Receiver's instance variables: 
+		array: 	an Array([self managedServers
+		do: [:each | each start]] [self default ...etc...
+		firstIndex: 	1
+		lastIndex: 	3
+
+
+SmalltalkImage>>executeDeferredStartupActions:
+	Receiver: Smalltalk
+	Arguments and temporary variables: 
+		resuming: 	true
+		errors: 	an OrderedCollection()
+	Receiver's instance variables: 
+		globals: 	a SystemDictionary(lots of globals)
+		deferredStartupActions: 	an OrderedCollection([self managedServers
+		do: [:each ...etc...
+		specialObjectsArray: 	an Array(nil false true #Processor->Processor Bitmap Small...etc...
+		session: 	an Object
+
+
+SmalltalkImage>>startupImage:snapshotWorked:
+	Receiver: Smalltalk
+	Arguments and temporary variables: 
+		isNewImage: 	true
+		snapshotResult: 	true
+		startupErrors: 	an OrderedCollection()
+	Receiver's instance variables: 
+		globals: 	a SystemDictionary(lots of globals)
+		deferredStartupActions: 	an OrderedCollection([self managedServers
+		do: [:each ...etc...
+		specialObjectsArray: 	an Array(nil false true #Processor->Processor Bitmap Small...etc...
+		session: 	an Object
+
+
+SmalltalkImage>>snapshot:andQuit:
+	Receiver: Smalltalk
+	Arguments and temporary variables: 
+		save: 	true
+		quit: 	true
+		snapshotResult: 	true
+		isNewImage: 	true
+		startupErrors: 	nil
+	Receiver's instance variables: 
+		globals: 	a SystemDictionary(lots of globals)
+		deferredStartupActions: 	an OrderedCollection([self managedServers
+		do: [:each ...etc...
+		specialObjectsArray: 	an Array(nil false true #Processor->Processor Bitmap Small...etc...
+		session: 	an Object
+
+
+[Smalltalk snapshot: true andQuit: true] in WorldState class>>saveAndQuit
+	Receiver: WorldState
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#activeHand->WorldState>>#activeHand #addAlarm:w...etc...
+		format: 	152
+		layout: 	nil
+		instanceVariables: 	#('hands' 'viewBox' 'canvas' 'damageRecorder' 'stepList' 'la...etc...
+		organization: 	a ClassOrganizer
+		subclasses: 	nil
+		name: 	#WorldState
+		classPool: 	a Dictionary(#CanSurrenderToOS->true #DebugShowDamage->false #Deferr...etc...
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Morphic-Worlds'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+BlockClosure>>ensure:
+	Receiver: [Smalltalk snapshot: true andQuit: true]
+	Arguments and temporary variables: 
+		aBlock: 	[oldcursor show]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	WorldState class>>saveAndQuit
+		startpc: 	39
+		numArgs: 	0
+
+
+CursorWithMask(Cursor)>>showWhile:
+	Receiver: ((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0
+		2r11000000000000000000
+...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[Smalltalk snapshot: true andQuit: true]
+		oldcursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0
+		2...etc...
+	Receiver's instance variables: 
+		bits: 	a Bitmap of length 16
+		width: 	16
+		height: 	16
+		depth: 	1
+		offset: 	(-1@ -1)
+		maskForm: 	Form(16x16x1)
+
+
+WorldState class>>saveAndQuit
+	Receiver: WorldState
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#activeHand->WorldState>>#activeHand #addAlarm:w...etc...
+		format: 	152
+		layout: 	nil
+		instanceVariables: 	#('hands' 'viewBox' 'canvas' 'damageRecorder' 'stepList' 'la...etc...
+		organization: 	a ClassOrganizer
+		subclasses: 	nil
+		name: 	#WorldState
+		classPool: 	a Dictionary(#CanSurrenderToOS->true #DebugShowDamage->false #Deferr...etc...
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Morphic-Worlds'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+[| selArgCount |
+(selArgCount := selector numArgs) = 0
+		ifTrue: [target perform: selector]
+		ifFalse: [selArgCount = arguments size
+				ifTrue: [target perform: selector withArguments: arguments]
+				ifFalse: [target
+						perform: selector
+						withArguments: (arguments copyWith: evt)]].
+	self changed] in ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+	Receiver: a ToggleMenuItemMorph(517996544)'Save and quit'
+	Arguments and temporary variables: 
+		evt: 	[(209@613) mouseUp 272710 nil]
+		w: 	a PasteUpMorph(425197568) [world]
+		selArgCount: 	0
+	Receiver's instance variables: 
+		bounds: 	(130.0@602.0) corner: (275.0@620.0)
+		owner: 	a MenuMorph(97779712)
+		submorphs: 	#()
+		fullBounds: 	(130.0@602.0) corner: (275.0@620.0)
+		color: 	Color black
+		extension: 	a MorphExtension (528220160) [other:  (announcer -> an Announcer)]
+		font: 	a StrikeFont(Bitmap DejaVu Sans 9 14)
+		emphasis: 	0
+		contents: 	'Save and quit'
+		hasFocus: 	false
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	WorldState
+		selector: 	#saveAndQuit
+		arguments: 	nil
+		icon: 	Form(16x16x32)
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+		keyText: 	nil
+
+
+BlockClosure>>ensure:
+	Receiver: [| selArgCount |
+(selArgCount := selector numArgs) = 0
+		ifTrue: [target perform: selector...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[oldcursor show]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+		startpc: 	160
+		numArgs: 	0
+
+
+CursorWithMask(Cursor)>>showWhile:
+	Receiver: ((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0
+		2r100000000000000000000...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[| selArgCount |
+(selArgCount := selector numArgs) = 0
+		ifTrue: [targe...etc...
+		oldcursor: 	((CursorWithMask
+	extent: (16@16)
+	depth: 1
+	fromArray: #(
+		2r0
+		2...etc...
+	Receiver's instance variables: 
+		bits: 	a Bitmap of length 16
+		width: 	16
+		height: 	16
+		depth: 	1
+		offset: 	(-1@ -1)
+		maskForm: 	Form(16x16x1)
+
+
+ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+	Receiver: a ToggleMenuItemMorph(517996544)'Save and quit'
+	Arguments and temporary variables: 
+		evt: 	[(209@613) mouseUp 272710 nil]
+		w: 	a PasteUpMorph(425197568) [world]
+	Receiver's instance variables: 
+		bounds: 	(130.0@602.0) corner: (275.0@620.0)
+		owner: 	a MenuMorph(97779712)
+		submorphs: 	#()
+		fullBounds: 	(130.0@602.0) corner: (275.0@620.0)
+		color: 	Color black
+		extension: 	a MorphExtension (528220160) [other:  (announcer -> an Announcer)]
+		font: 	a StrikeFont(Bitmap DejaVu Sans 9 14)
+		emphasis: 	0
+		contents: 	'Save and quit'
+		hasFocus: 	false
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	WorldState
+		selector: 	#saveAndQuit
+		arguments: 	nil
+		icon: 	Form(16x16x32)
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+		keyText: 	nil
+
+
+ToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+	Receiver: a ToggleMenuItemMorph(517996544)'Save and quit'
+	Arguments and temporary variables: 
+		evt: 	[(209@613) mouseUp 272710 nil]
+	Receiver's instance variables: 
+		bounds: 	(130.0@602.0) corner: (275.0@620.0)
+		owner: 	a MenuMorph(97779712)
+		submorphs: 	#()
+		fullBounds: 	(130.0@602.0) corner: (275.0@620.0)
+		color: 	Color black
+		extension: 	a MorphExtension (528220160) [other:  (announcer -> an Announcer)]
+		font: 	a StrikeFont(Bitmap DejaVu Sans 9 14)
+		emphasis: 	0
+		contents: 	'Save and quit'
+		hasFocus: 	false
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	WorldState
+		selector: 	#saveAndQuit
+		arguments: 	nil
+		icon: 	Form(16x16x32)
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+		keyText: 	nil
+
+
+ToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+	Receiver: a ToggleMenuItemMorph(517996544)'Save and quit'
+	Arguments and temporary variables: 
+		anEvent: 	[(209@613) mouseUp 272710 nil]
+	Receiver's instance variables: 
+		bounds: 	(130.0@602.0) corner: (275.0@620.0)
+		owner: 	a MenuMorph(97779712)
+		submorphs: 	#()
+		fullBounds: 	(130.0@602.0) corner: (275.0@620.0)
+		color: 	Color black
+		extension: 	a MorphExtension (528220160) [other:  (announcer -> an Announcer)]
+		font: 	a StrikeFont(Bitmap DejaVu Sans 9 14)
+		emphasis: 	0
+		contents: 	'Save and quit'
+		hasFocus: 	false
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	WorldState
+		selector: 	#saveAndQuit
+		arguments: 	nil
+		icon: 	Form(16x16x32)
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+		keyText: 	nil
+
+
+MouseButtonEvent>>sentTo:
+	Receiver: [(209@613) mouseUp 272710 nil]
+	Arguments and temporary variables: 
+		anObject: 	a ToggleMenuItemMorph(517996544)'Save and quit'
+	Receiver's instance variables: 
+		timeStamp: 	272710
+		source: 	a HandMorph(843055104)
+		windowIndex: 	nil
+		type: 	#mouseUp
+		buttons: 	0
+		position: 	(209@613)
+		handler: 	nil
+		wasHandled: 	true
+		whichButton: 	4
+
+
+ToggleMenuItemMorph(Morph)>>handleEvent:
+	Receiver: a ToggleMenuItemMorph(517996544)'Save and quit'
+	Arguments and temporary variables: 
+		anEvent: 	[(209@613) mouseUp 272710 nil]
+	Receiver's instance variables: 
+		bounds: 	(130.0@602.0) corner: (275.0@620.0)
+		owner: 	a MenuMorph(97779712)
+		submorphs: 	#()
+		fullBounds: 	(130.0@602.0) corner: (275.0@620.0)
+		color: 	Color black
+		extension: 	a MorphExtension (528220160) [other:  (announcer -> an Announcer)]
+		font: 	a StrikeFont(Bitmap DejaVu Sans 9 14)
+		emphasis: 	0
+		contents: 	'Save and quit'
+		hasFocus: 	false
+		isEnabled: 	true
+		subMenu: 	nil
+		isSelected: 	false
+		target: 	WorldState
+		selector: 	#saveAndQuit
+		arguments: 	nil
+		icon: 	Form(16x16x32)
+		getStateSelector: 	nil
+		enablementSelector: 	nil
+		keyText: 	nil
+
+
+MorphicEventDispatcher>>dispatchDefault:with:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(209@613) mouseUp 272710 nil]
+		aMorph: 	a ToggleMenuItemMorph(517996544)'Save and quit'
+		localEvt: 	nil
+		index: 	1
+		child: 	nil
+		morphs: 	#()
+		inside: 	true
+	Receiver's instance variables: 
+		lastType: 	#mouseUp
+		lastDispatch: 	#dispatchDefault:with:
+
+
+MorphicEventDispatcher>>dispatchEvent:with:
+	Receiver: a MorphicEventDispatcher
+	Arguments and temporary variables: 
+		anEvent: 	[(209@613) mouseUp 272710 nil]
+		aMorph: 	a ToggleMenuItemMorph(517996544)'Save and quit'
+	Receiver's instance variables: 
+		lastType: 	#mouseUp
+		lastDispatch: 	#dispatchDefault:with:
+
+
+
+--- The full stack ---
+UndefinedObject(Object)>>doesNotUnderstand: #new
+UndefinedObject>>DoIt
+Compiler>>evaluate:in:to:notifying:ifFail:logged:
+Compiler class>>evaluate:for:notifying:logged:
+Compiler class>>evaluate:for:logged:
+Compiler class>>evaluate:
+[self stdout
+		print: (Compiler evaluate: aStream);
+		 lf] in EvaluateCommandLineHandler>>evaluate:
+BlockClosure>>on:do:
+EvaluateCommandLineHandler>>evaluate:
+EvaluateCommandLineHandler>>evaluateArguments
+EvaluateCommandLineHandler>>activate
+EvaluateCommandLineHandler class(CommandLineHandler class)>>activateWith:
+DefaultCommandLineHandler>>handleSubcommand
+DefaultCommandLineHandler>>handleArgument:
+DefaultCommandLineHandler>>activate
+[self new activate] in DefaultCommandLineHandler class>>startUp:
+BlockClosure>>cull:
+[each cull: resuming] in [:each | self
+		logStartUpErrorDuring: [each cull: resuming]
+		into: errors
+		tryDebugger: self isInteractive] in SmalltalkImage>>executeDeferredStartupActions:
+BlockClosure>>on:do:
+SmalltalkImage>>logStartUpErrorDuring:into:tryDebugger:
+[:each | self
+		logStartUpErrorDuring: [each cull: resuming]
+		into: errors
+		tryDebugger: self isInteractive] in SmalltalkImage>>executeDeferredStartupActions:
+OrderedCollection>>do:
+SmalltalkImage>>executeDeferredStartupActions:
+SmalltalkImage>>startupImage:snapshotWorked:
+SmalltalkImage>>snapshot:andQuit:
+[Smalltalk snapshot: true andQuit: true] in WorldState class>>saveAndQuit
+BlockClosure>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+WorldState class>>saveAndQuit
+[| selArgCount |
+(selArgCount := selector numArgs) = 0
+		ifTrue: [target perform: selector]
+		ifFalse: [selArgCount = arguments size
+				ifTrue: [target perform: selector withArguments: arguments]
+				ifFalse: [target
+						perform: selector
+						withArguments: (arguments copyWith: evt)]].
+	self changed] in ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+BlockClosure>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+ToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+ToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+ToggleMenuItemMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>dispatchEvent:with:
+ - - - - - - - - - - - - - - -  
+			- - - - - - - - - - - - - - - - - -
+ToggleMenuItemMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>dispatchEvent:with:
+MenuMorph(Morph)>>processEvent:using:
+MenuMorph(Morph)>>processEvent:
+MenuMorph>>handleFocusEvent:
+[ActiveHand := self.
+	ActiveEvent := anEvent.
+	result := focusHolder
+				handleFocusEvent: (anEvent
+						transformedBy: (focusHolder transformedFrom: self))] in HandMorph>>sendFocusEvent:to:clear:
+[aBlock value] in PasteUpMorph>>becomeActiveDuring:
+BlockClosure>>on:do:
+PasteUpMorph>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendMouseEvent:
+HandMorph>>handleEvent:
+HandMorph>>processEvents
+[:h | 
+ActiveHand := h.
+	h processEvents.
+	ActiveHand := nil] in WorldState>>doOneCycleNowFor:
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+PasteUpMorph>>doOneCycle
+[[World doOneCycle.
+	Processor yield.
+	false] whileFalse.
+	nil] in MorphicUIManager>>spawnNewProcess
+[self value.
+	Processor terminateActive] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Got startup errors: 
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+    MessageNotUnderstood: receiver of "new" is nil
+-------------------------------------------------------------------------------
+

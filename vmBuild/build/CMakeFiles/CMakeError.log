@@ -1,0 +1,126 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: cannot execute binary file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: cannot execute binary file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: cannot execute binary file
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++: cannot execute binary file
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++: cannot execute binary file
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/vmBuild/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3320817409/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3320817409.dir/build.make CMakeFiles/cmTryCompileExec3320817409.dir/build
+/usr/local/Cellar/cmake/2.8.10.2/bin/cmake -E cmake_progress_report /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/vmBuild/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3320817409.dir/testCCompiler.c.o
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTryCompileExec3320817409.dir/testCCompiler.c.o   -c /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/vmBuild/build/CMakeFiles/CMakeTmp/testCCompiler.c
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: cannot execute binary file
+make[1]: *** [CMakeFiles/cmTryCompileExec3320817409.dir/testCCompiler.c.o] Error 126
+make: *** [cmTryCompileExec3320817409/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: cannot execute binary file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: cannot execute binary file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: cannot execute binary file
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++: cannot execute binary file
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+126
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++: cannot execute binary file
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/vmBuild/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3910096378/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3910096378.dir/build.make CMakeFiles/cmTryCompileExec3910096378.dir/build
+/usr/local/Cellar/cmake/2.8.10.2/bin/cmake -E cmake_progress_report /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/vmBuild/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3910096378.dir/testCCompiler.c.o
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTryCompileExec3910096378.dir/testCCompiler.c.o   -c /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/vmBuild/build/CMakeFiles/CMakeTmp/testCCompiler.c
+/Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: /Users/jbarnaud/Documents/Repository/RaspberryPiLocal/toolchain/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc: cannot execute binary file
+make[1]: *** [CMakeFiles/cmTryCompileExec3910096378.dir/testCCompiler.c.o] Error 126
+make: *** [cmTryCompileExec3910096378/fast] Error 2
+
+
